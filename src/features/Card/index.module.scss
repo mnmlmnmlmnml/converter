@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  position: fixed;
+  top: 50%;
+  left: 0;
+}
+
+.columns__first {
+  display: flex;
+}
+.columns__second {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  padding: 5px;
+}
